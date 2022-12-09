@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: clamp(500px, 75vw, 85vw);
+    width: clamp(500px, 55vw, 75vw);
     background-color: #f9faf5;
 }
 
