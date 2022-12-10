@@ -28,8 +28,8 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    width: clamp(500px, 55vw, 75vw);
-    background-color: #f9faf5;
+    width: clamp(500px, 55vw, 1000px);
+    background-color: white;
 }
 
 .content > .home {
@@ -67,7 +67,7 @@ body {
     place-self: center start;
 }
 .content > .menu > .menu-item > .description {
-    place-self: center;
+    place-self: center start;
     grid-row: 2 / 3;
     grid-column: 2 / 4;
 }
@@ -147,4 +147,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f9faf5;
 }
